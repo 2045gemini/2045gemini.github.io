@@ -7,7 +7,7 @@ tags: ["CTF", "TQLCTF2022"]
 summary: ""
 ---
 
-TQLCTF是奇安信技术研究院和清华大学网研院一块儿办的比赛，题目主要是由清华网研院的同学命题的，题目质量很高，我当时在奇安信研究DNS缓存污染，复现了USENIX21的一篇论文，正好拿来出题。
+TQLCTF是奇安信技术研究院和清华大学网研院一块儿办的比赛，题目主要是由清华网研院的同学命题的，题目质量很高，我当时在奇安信研究DNS缓存污染，复现了USENIX21的一篇论文，正好拿来出题，题目源码公开在 https://github.com/ElegantCrazy/tqlctf2022_networktools
 
 本题出题思路来自于[Injection Attacks Reloaded: Tunnelling Malicious Payloads over DNS](https://www.usenix.org/conference/usenixsecurity21/presentation/jeitner)，通过在DNS资源记录中插入控制字符，从而影响DNS的解析结果，或是插入不符合域名规范的特殊字符，最终实现DNS缓存污染、SQL注入、XSS等效果。
 
