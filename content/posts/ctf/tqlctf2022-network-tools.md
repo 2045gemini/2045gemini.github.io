@@ -17,7 +17,7 @@ TQLCTF是奇安信技术研究院和清华大学网研院一块儿办的比赛�
 
 ![image-20220215015237091](/images/image-20220215015237091.png)
 
-本题基于图中场景构建3个容器，分别是flask应用程序、dnsmasq和基于c-ares的DNS转发器。其中flask应用程序储存flag，可以执行ping、traceroute命令，并可以向ftp.sjtu.edu.cn下载并上传文件，还有一个限制本地访问的webshell，源码如下：
+本题基于图中场景构建3个容器，分别是flask应用程序、dnsmasq和基于c-ares的DNS转发器。其中flask应用程序储存flag，可以执行ping、traceroute命令，并可以向[token].ftp.testsweb.xyz下载并上传文件，其中token是随机生成的8个字符，还有一个限制本地访问的webshell，源码如下：
 
 ```
 from flask import Flask, request, send_from_directory,session,redirect
