@@ -1,1 +1,1 @@
-我的个人博客[ElegantCrazy's blog](https://www.elegantcrazy.com/)，具体搭建过程可以参考《[使用Github Pages+Hugo+PaperMod搭建博客](https://www.elegantcrazy.com/posts/blog/build-blog-with-github-pages-hugo-and-papermod/)》。
+框架来自于ElegantCrazy[ElegantCrazy's blog](https://www.elegantcrazy.com/)，他的仓库和教程帮我省了很多搭建的时间，感谢！

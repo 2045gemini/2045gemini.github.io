@@ -79,13 +79,13 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "2045's blog"
-    Content: Always be a learner
+    Content: Choose to live, even when meaning is absent
 
   socialIcons:
     - name: github
       url: "https://github.com/2045gemini"
     - name: email
-      url: "mailto://xu.wenhan@outlook.com"
+      url: "mailto://2045gemini@gmail.com"
 
   analytics:
     google:
