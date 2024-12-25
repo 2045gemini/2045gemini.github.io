@@ -1,5 +1,5 @@
-baseURL: "https://www.elegantcrazy.com/"
-title: "ElegantCrazy's blog"
+baseURL: "https://2045gemini.github.io/"
+title: "2045's blog"
 languageCode: zh
 defaultContentLanguage: zh
 paginate: 5
@@ -18,10 +18,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "ElegantCrazy's blog"
-  description: "ElegantCrazy's blog"
-  keywords: [Blog, ElegantCrazy]
-  author: ElegantCrazy
+  title: "2045's blog"
+  description: "2045's blog"
+  keywords: [Blog, 2045]
+  author: 2045
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
@@ -57,14 +57,14 @@ params:
     # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "ElegantCrazy's blog"
+    text: "2045's blog"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: "ElegantCrazy's blog"
+    title: "2045's blog"
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -78,12 +78,12 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "ElegantCrazy's blog"
+    Title: "2045's blog"
     Content: Always be a learner
 
   socialIcons:
     - name: github
-      url: "https://github.com/ElegantCrazy"
+      url: "https://github.com/2045gemini"
     - name: email
       url: "mailto://xu.wenhan@outlook.com"
 
@@ -96,7 +96,7 @@ params:
     #   SiteVerificationTag: "XYZabc"
 
   editPost:
-    URL: "https://github.com/ElegantCrazy/ElegantCrazy.github.io/blob/main/content"
+    URL: "https://github.com/2045gemini/2045gemini.github.io/blob/main/content"
     Text: "提交修改建议" # edit text
     appendFilePath: true # to append file path to Edit link
 
